@@ -1,3 +1,5 @@
+import header from "../assets/header.png";
+
 const Header = () => {
   return (
     <header className="header">
@@ -7,7 +9,7 @@ const Header = () => {
             <img
               loading="lazy"
               decoding="async"
-              src="src/assets/header.png"
+              src={header}
               width="1000"
               height="600"
             />
